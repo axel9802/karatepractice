@@ -9,6 +9,12 @@ Feature: Prueba
         When method GET
         Then status 200
 
+    Scenario: Get a specific user:
+
+        Given path '/api/users/2'
+        When method GET
+        Then status 200
+
     Scenario: Create a user:
         * def create_user_request =
         """

@@ -38,7 +38,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-pass" class="bg-success">3</div>
       <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-11-06 02:51:44 a. m.</div>
+    <div>2024-11-06 03:29:23 a. m.</div>
   </div>
 </div>
 
@@ -58,7 +58,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
             <a href="#[1:6]"><span>[1:6]</span> <span>Get all users:</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2:12]"><span>[2:12]</span> <span>Create a user:</span></a>
+            <a href="#[2:12]"><span>[2:12]</span> <span>Get a specific user:</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:18]"><span>[3:18]</span> <span>Create a user:</span></a>
           </div>
         </div>
       </div>
@@ -84,7 +87,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>568</span>
+              <span>ms:</span>&nbsp;<span>571</span>
             </div>
           </div>
           <div class="step-row">
@@ -116,7 +119,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">02:51:43.654 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">03:29:22.046 karate.env system property was: null 
 </div>   
 
   
@@ -136,7 +139,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;/api/users?page=2&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -164,7 +167,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">564</div>
+    <div class="time-cell passed">566</div>
   </div>
 
    
@@ -173,7 +176,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.9">02:51:43.862 request:
+  <div class="preformatted" data-parent="0.9">03:29:22.252 request:
 1 &gt; GET https://reqres.in/api/users%3Fpage=2
 1 &gt; Host: reqres.in
 1 &gt; Connection: Keep-Alive
@@ -181,9 +184,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-02:51:44.246 response time in milliseconds: 380
+03:29:22.641 response time in milliseconds: 387
 1 &lt; 200
-1 &lt; Date: Wed, 06 Nov 2024 07:51:44 GMT
+1 &lt; Date: Wed, 06 Nov 2024 08:29:22 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -196,11 +199,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; Via: 1.1 vegur
 1 &lt; Cache-Control: max-age=14400
 1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 1125
+1 &lt; Age: 3383
 1 &lt; Vary: Accept-Encoding
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 8de380069e4aa79b-EZE
-1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=53162&amp;sent=7&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3111&amp;recv_bytes=736&amp;delivery_rate=65231&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=b933d6f4fd25e44c&amp;ts=142&amp;x=0&quot;
+1 &lt; CF-RAY: 8de3b729bdc4a776-EZE
+1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=53934&amp;sent=7&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3111&amp;recv_bytes=736&amp;delivery_rate=62530&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=28a3444135de5ab1&amp;ts=148&amp;x=0&quot;
 {&quot;page&quot;:1,&quot;per_page&quot;:6,&quot;total&quot;:12,&quot;total_pages&quot;:2,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;cerulean&quot;,&quot;year&quot;:2000,&quot;color&quot;:&quot;#98B2D1&quot;,&quot;pantone_value&quot;:&quot;15-4020&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;fuchsia rose&quot;,&quot;year&quot;:2001,&quot;color&quot;:&quot;#C74375&quot;,&quot;pantone_value&quot;:&quot;17-2031&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;true red&quot;,&quot;year&quot;:2002,&quot;color&quot;:&quot;#BF1932&quot;,&quot;pantone_value&quot;:&quot;19-1664&quot;},{&quot;id&quot;:4,&quot;name&quot;:&quot;aqua sky&quot;,&quot;year&quot;:2003,&quot;color&quot;:&quot;#7BC4C4&quot;,&quot;pantone_value&quot;:&quot;14-4811&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;tigerlily&quot;,&quot;year&quot;:2004,&quot;color&quot;:&quot;#E2583E&quot;,&quot;pantone_value&quot;:&quot;17-1456&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;blue turquoise&quot;,&quot;year&quot;:2005,&quot;color&quot;:&quot;#53B0AE&quot;,&quot;pantone_value&quot;:&quot;15-5217&quot;}],&quot;support&quot;:{&quot;url&quot;:&quot;https://reqres.in/#support-heading&quot;,&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;}}
 
 </div>   
@@ -246,12 +249,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[2:12]</span>
-                <span class="scenario-name">Create a user:</span>
+                <span class="scenario-name">Get a specific user:</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1086</span>
+              <span>ms:</span>&nbsp;<span>571</span>
             </div>
           </div>
           <div class="step-row">
@@ -283,7 +286,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">02:51:43.654 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">03:29:22.046 karate.env system property was: null 
 </div>   
 
   
@@ -296,19 +299,186 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/users/2&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">566</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">03:29:22.252 request:
+1 &gt; GET https://reqres.in/api/users/2
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+03:29:22.642 response time in milliseconds: 387
+1 &lt; 200
+1 &lt; Date: Wed, 06 Nov 2024 08:29:22 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1730601903&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=DIiuU5jQ8ooOb20tgvjT2kmtmO8xy%2BCOX8BquJqK0js%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730601903&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=DIiuU5jQ8ooOb20tgvjT2kmtmO8xy%2BCOX8BquJqK0js%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;118-pbdwwFo9SKNhD3Lx5iHJyngpq00&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; Cache-Control: max-age=14400
+1 &lt; CF-Cache-Status: HIT
+1 &lt; Age: 41
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 8de3b729be091e98-EZE
+1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=52661&amp;sent=7&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3111&amp;recv_bytes=729&amp;delivery_rate=62753&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=8f5bc94205072a51&amp;ts=146&amp;x=0&quot;
+{&quot;data&quot;:{&quot;id&quot;:2,&quot;email&quot;:&quot;janet.weaver@reqres.in&quot;,&quot;first_name&quot;:&quot;Janet&quot;,&quot;last_name&quot;:&quot;Weaver&quot;,&quot;avatar&quot;:&quot;https://reqres.in/img/faces/2-image.jpg&quot;},&quot;support&quot;:{&quot;url&quot;:&quot;https://reqres.in/#support-heading&quot;,&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:18]</span>
+                <span class="scenario-name">Create a user:</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1040</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://reqres.in&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">03:29:22.046 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def create_user_request =</span>
       </div>
     </div>
-    <div class="time-cell passed">37</div>
+    <div class="time-cell passed">36</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.13">{
+  <div class="preformatted" data-parent="0.19">{
  &quot;name&quot;: &quot;morpheus&quot;,
  &quot;job&quot;: &quot;leader&quot;
 }</div>
@@ -327,8 +497,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.20">
-      <div class="step-ref passed">20</div>
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>path &#39;/api/users&#39;</span>
@@ -355,8 +525,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.21">
-      <div class="step-ref passed">21</div>
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request create_user_request</span>
@@ -383,14 +553,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.22">
-      <div class="step-ref passed">22</div>
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1033</div>
+    <div class="time-cell passed">986</div>
   </div>
 
    
@@ -399,7 +569,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.22">02:51:43.862 request:
+  <div class="preformatted" data-parent="0.28">03:29:22.252 request:
 1 &gt; POST https://reqres.in/api/users
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 34
@@ -409,24 +579,24 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;}
 
-02:51:44.757 response time in milliseconds: 894
+03:29:23.104 response time in milliseconds: 852
 1 &lt; 201
-1 &lt; Date: Wed, 06 Nov 2024 07:51:44 GMT
+1 &lt; Date: Wed, 06 Nov 2024 08:29:23 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 84
 1 &lt; Connection: keep-alive
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1730879504&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=O8KCF4N5pUMBejkYaxruYPZTlSfceh%2Fd%2B%2BHQcPE%2FvyU%3D&quot;}]}
-1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730879504&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=O8KCF4N5pUMBejkYaxruYPZTlSfceh%2Fd%2B%2BHQcPE%2FvyU%3D
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1730881763&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=%2FaEedJhgtomaR3nSCgkWyFt5AyZDI0JWy92kSY4fwGs%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730881763&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;s=%2FaEedJhgtomaR3nSCgkWyFt5AyZDI0JWy92kSY4fwGs%3D
 1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
 1 &lt; X-Powered-By: Express
 1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;54-MPfMj1ea2mGFzbLTy8Og2tTvQuw&quot;
+1 &lt; Etag: W/&quot;54-jgAv8vrX/6CpytVPEE2f6s0xFVk&quot;
 1 &lt; Via: 1.1 vegur
 1 &lt; cf-cache-status: DYNAMIC
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 8de380069a4d200d-EZE
-1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=54043&amp;sent=7&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3110&amp;recv_bytes=829&amp;delivery_rate=65780&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=21f919af7e761da3&amp;ts=661&amp;x=0&quot;
-{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;,&quot;id&quot;:&quot;123&quot;,&quot;createdAt&quot;:&quot;2024-11-06T07:51:44.840Z&quot;}
+1 &lt; CF-RAY: 8de3b729bf59a783-EZE
+1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=53482&amp;sent=7&amp;recv=7&amp;lost=0&amp;retrans=0&amp;sent_bytes=3109&amp;recv_bytes=829&amp;delivery_rate=62768&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=9be738c333c0f15f&amp;ts=617&amp;x=0&quot;
+{&quot;name&quot;:&quot;morpheus&quot;,&quot;job&quot;:&quot;leader&quot;,&quot;id&quot;:&quot;986&quot;,&quot;createdAt&quot;:&quot;2024-11-06T08:29:23.208Z&quot;}
 
 </div>   
 
@@ -440,8 +610,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.23">
-      <div class="step-ref passed">23</div>
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 201</span>
@@ -468,8 +638,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.25">
-      <div class="step-ref passed">25</div>
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def expectedName = create_user_request.name</span>
@@ -496,14 +666,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.26">
-      <div class="step-ref passed">26</div>
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
       
       <div class="step-cell passed">
         <span>*</span>&nbsp;<span>def expectedJob = create_user_request.job</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -524,8 +694,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.28">
-      <div class="step-ref passed">28</div>
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.name == expectedName</span>
@@ -552,8 +722,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.29">
-      <div class="step-ref passed">29</div>
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response.job == expectedJob</span>
